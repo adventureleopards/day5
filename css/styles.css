@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(121, 36, 92);
+}
+
+h1 {
+    border: 2px solid rgb(12, 12, 12);
+    box-shadow: 4px 8px 10px rgb(228, 138, 20);
+    padding: 10px 15px;
+    margin: bottom 10px;
+    font: italic bolder 24px/125% times, serif;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    background-color: rgb(214, 156, 47);
+    color: rgb(12, 12, 12);
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    box-shadow: 4px 8px 10px rgb(228, 138, 20);
+}
+
+/* menu items */
+/* instructions for navbar html */
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 14px;
+    background-color: rgb(53, 201, 34);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* gets rid of underline in link */
+
+ul li a {
+    text-decoration: none;
+    color: rgb(12, 12, 12)
+}
+
+ul li a:hover {
+    color: rgb(236, 231, 223);
+}
+
+ul li:hover {
+    background-color: rgb(214, 156, 47);
+}
+
+section {
+    border: 2px solid rgb(12, 12, 12);
+    height: 185px;
+    float: left;
+    clear: none;
+    width: 59%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-image: url("/img/image_2.jpg");
+}
+
+article {
+    border: 2px solid rgb(12, 12, 12);
+    height: 185px;
+    float: none;
+    clear: left;
+    width: 59%;
+    /* 1st px top, 2nd px no change, 3rd px no change, 4th px left  */
+    /* margin: 75px 2px 2px 75px; */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+aside {
+    border: 2px solid rgb(12, 12, 12);
+    height: 404px;
+    float: right;
+    clear: none;
+    width: 37%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer {
+    border: 2px solid rgb(12, 12, 12);
+    float: both;
+    clear: both;
+    padding: 10px;
+    text-shadow: 2px rgb(228, 138, 20);
+    
+}

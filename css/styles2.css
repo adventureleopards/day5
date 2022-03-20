@@ -1,0 +1,24 @@
+body {
+    background: rgb(228, 138, 20) url("/img/logo.jfif") repeat left top;
+}
+
+ul {
+    list-style: square;
+}
+
+ul li {
+    text-decoration: solid rgb(245, 242, 242);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1 {
+    border: 2px solid #000;
+    box-shadow: 4px 8px 10px rgb(228, 138, 20);
+    padding: 10px 15px;
+    margin: 10px 15px;
+    font: italic bolder 16px/125% times, serif;
+    text-shadow: 2px 2px rgb(250, 247, 244);
+    background-color: rgb(101, 53, 136);
+
+}
